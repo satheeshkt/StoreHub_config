@@ -20,6 +20,7 @@ rowMapper.class.name=com.skillnet.retail.xhub.mapper.ResultSetMapper
 xhubXstorePostProcessorListener=com.skillnet.retail.xhub.listener.XStorePostProcessorListener
 xhubRelatePostProcessorListener=com.skillnet.retail.xhub.listener.XRelateItemPostProcessorListener
 xhubSimPostProcessorListener=com.skillnet.retail.xhub.sim.listener.XhubSimItemPostProcessorListener
+xsimItemPostProcessorListener=com.skillnet.retail.xhub.sim.listener.XhubSimItemPostProcessorListener
 
 ## JDBC - polling properties
 
@@ -111,7 +112,7 @@ selectsql.processor.sim = SELECT DISTINCT MESSAGE_TYPE, TRANSACTION_TYPE, ITEM_I
 ## JDBC processor configuration
 
 #jdbc.processor.update= 
-jdbc.processor.query=select 'sample';
+#jdbc.processor.query=select 'sample';
 
 ## Dozer mapping configurations
 
